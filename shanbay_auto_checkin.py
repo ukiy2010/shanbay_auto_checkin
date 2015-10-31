@@ -8,14 +8,10 @@ from lxml import html
 
 
 # 阅读的篇数
-_count = 2
-
-_username_and_password = {"qasw1": "asdfasdf",
-                          "qasw2": "asdfasdf",
-                          "qasw3": "asdfasdf",
-                          "qasw4": "asdfasdf",
-                          "qasw5": "asdfasdf",
-                          "qasw6": "asdfasdf", }
+_count = 3
+# 用户名和密码
+_username_and_password = {"your username1": "your password1",
+                          "your username2": "your username2", }
 
 
 def auto(username, password, count):
