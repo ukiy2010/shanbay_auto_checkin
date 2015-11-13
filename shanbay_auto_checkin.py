@@ -11,7 +11,7 @@ from lxml import html
 _count = 3
 # 用户名和密码
 _username_and_password = {"your username1": "your password1",
-                          "your username2": "your username2", }
+                          "your username2": "your password2", }
 
 
 def auto(username, password, count):
